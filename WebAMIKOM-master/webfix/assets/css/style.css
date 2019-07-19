@@ -1,0 +1,66 @@
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+/*  */
+#topNavHide{
+    display: none;
+}
+
+/*  */
+.bg-video{
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: -100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+/*  */
+.first{
+    /* height: 100%; */
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    color: white;
+}
+
+.btn-login{
+    width: 200px;
+    border-radius: 50px;
+}
+
+/* modal-dialog */
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: none !important;
+    }
+}
+
+.modal-dialog{
+    height: 100vh;
+}
+
+/*  */
+@media (min-width: 1200px){
+    .container {
+        max-width: none !important;
+        width: 70%;
+    }
+}
+
+/*  */
+.blockquote{
+    font-size: 16px;
+}
+
+/* profil */
+#profil{
+    background-image: url('../img/profil/university.jpg'); 
+    background-size: cover;
+    height: 100vh;
+}
+
+/* footer */
+footer .nav .nav-link{
+    padding-left: 0;
+}
